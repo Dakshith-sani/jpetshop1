@@ -11,10 +11,10 @@ spec:
     metadata:
       labels:
         app: petshop
-    spec:
+          spec:
       containers:
       - name: petshop
-        image: sevenajay/petshop:latest
+        image: rojamaniramisetty/petshop:latest
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
