@@ -11,7 +11,7 @@ spec:
     metadata:
       labels:
         app: petshop
-          spec:
+spec:
       containers:
       - name: petshop
         image: rojamaniramisetty/petshop:latest
