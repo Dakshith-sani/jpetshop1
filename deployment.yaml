@@ -15,9 +15,9 @@ spec:
   containers:
     - name: petshop
       image: rojamaniramisetty/petshop:latest
-       ports:
-        - containerPort: 8080
-        imagePullPolicy: Always
+      ports:
+      - containerPort: 8080
+      imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service
